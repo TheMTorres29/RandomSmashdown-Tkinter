@@ -152,5 +152,6 @@ class FighterApp:
 
 if __name__ == "__main__":
     app = customtkinter.CTk()
+    app.geometry("300x250")
     fighter_app = FighterApp(app)
     app.mainloop()
